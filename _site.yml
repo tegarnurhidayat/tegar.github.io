@@ -1,0 +1,13 @@
+name: "my-website"
+navbar:
+  title: "Tegar's Web"
+  right:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Matriks"
+      icon: fa-calendar
+      href: matriks.html
+    - text: "Tentang"
+      icon: fa-list
+      href: about.html

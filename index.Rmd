@@ -1,0 +1,10 @@
+---
+title: <center style="font-size:125%; font-family:Poppins; font-style:normal">Tutorial Membangun Matriks dengan RStudio</center>
+author: <center style="font-size:125%; font-style:normal; font-family:Poppins">Dosen Pengampu = Muhammad Suhartono </center> <br> <center style="font-size:125%; font-style:normal; font-family:Poppins">Mata kuliah = Linear Aljebra <br><br> ![](https://lis.uin-malang.ac.id/images/logouin.png){width=25%}
+date: <center style="font-style:normal; font-family:Poppins">1 Maret 2021</center>
+output: 
+  html_document:
+    css: corp-styles.css
+    theme: flatly
+    highlight: tango
+---

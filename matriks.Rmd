@@ -1,0 +1,60 @@
+---
+output:
+ html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    self_contained: yes
+    css: corp-styles.css
+    theme: flatly
+    highlight: tango
+---
+# Pengertian Matriks
+![](https://1.bp.blogspot.com/-ciNx2WB4HmU/X4V5Vx-OvXI/AAAAAAAAI84/FbNGqr3TM9kpIvVXuX2NwL3nUdH4O4iFQCLcBGAsYHQ/s0/soal%2Bkubus%2Bterbaru.png)
+
+
+Matriks adalah kumpulan bilangan yang disusun secara baris atau kolom atau kedua-duanya dan di dalam suatu tanda kurung. Bilangan-bilangan yang membentuk suatu matriks disebut sebagai elemen-elemen matriks. Matriks digunakan untuk menyederhanakan penyampaian data, sehingga mudah untuk diolah.
+
+# Pembuatan Matriks
+{.tabset}
+------------------
+### Matriks A 
+Matriks A adalah matriks yang terdiri dari angka 1 sampai dengan 25
+```{r}
+A <- matrix(data = 1:25, nrow = 5, ncol = 5, byrow = TRUE)
+A
+```
+### Matriks B 
+Matriks B adalah matriks yang terdiri dari angka 25 sampai dengan 49
+```{r}
+B <- matrix(data = 25:49, nrow = 5, ncol = 5, byrow = FALSE)
+B
+```
+
+# Operasi Matematika
+{.tabset}
+------------------
+### Penjumlahan
+```{r}
+A + B
+```
+### Pengurangan
+```{r}
+A - B
+```
+### Perkalian
+```{r}
+A*B
+```
+### Pembagian
+```{r}
+A/B
+```
+### Perpangkatan
+```{r}
+A^B
+```
+
+# Daftar Pustaka
+● https://rstudio-pubs-static.s3.amazonaws.com/99415_2b07b7f8b93d4d4ca79ade8bacc4f89d.html <br>
+● https://www.quipper.com/id/blog/mapel/matematika/matriks-dan-contoh-soalnya/
